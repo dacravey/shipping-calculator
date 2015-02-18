@@ -1,0 +1,36 @@
+#results{
+  display:none;
+}
+
+HTML{
+  margin: 0px;
+  padding: 0px;
+}
+
+BODY{
+  margin: 0px;
+  padding: 0px;
+  font-size: 25px;
+  background-color:#9e6400;
+}
+
+
+.jumbotron {
+  width:100%;
+  height: auto;
+  background-color:#D0B022;
+  padding:10px;
+  margin:0px;
+  opacity: 0.7;
+
+}
+
+form {
+  font-size: 15px;
+}
+
+
+.btn {
+  margin-top: 10px;
+  margin-right: 4px;
+}
