@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Package Deal</title>
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="jumbotron">
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+
+      <h1>The Package Deal</h1>
+      <h3><em>No one ships it cheaper</em><h3>
+
+      <form class="shipping-cost">
+        <div class="form-group">
+          <label for="distance">Shipping distance: </label>
+          <input id="distance" type="number" class="form-control" placeholder="miles">
+        </div>
+
+        <div class="form-group">
+          <label for="weight">Weight:</label>
+          <input id="weight" type="number" class="form-control" placeholder="pounds" >
+        </div>
+
+        <div class="form-group">
+          <label for="height">Height: </label>
+          <input id="height" type="number" class="form-control" placeholder="inches">
+        </div>
+
+        <div class="form-group">
+          <label for="length">Length: </label>
+          <input id="length" type="number" class="form-control" placeholder="inches">
+        </div>
+
+        <div class="form-group">
+          <label for="width">Width: </label>
+          <input id="width" type="number" class="form-control" min="0" placeholder="inches">
+        </div>
+
+        <button type="submit" class="btn">Ship it!!</button>
+      </form>
+    </div>
+
+    <div class="row">
+    <div class="col-md-6">
+        <h2>Standard Delivery:</h2>
+        <p>Total: $<span id="cost"></span></p>
+        <br />
+        <h2>Expedited Delivery (2 day):</h2>
+        <p>Total: $<span id="expedited"></span></p>
+        <br />
+        <h2>Hand-Carried Super Expeditious Delivery (asap):</h2>
+        <p>Total: $<span id="fastest"></span></p>
+      </div>
+     </div>
+    </div>
+  </div>
+  </body>
+</html>
